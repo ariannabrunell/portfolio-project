@@ -18,16 +18,16 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 70px;
   line-height: 1.5;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h3 {
-  font-size: 48px;
+  font-size: 38px;
 }
 
 p {
@@ -175,11 +175,11 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.5;
   }
   h2 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   h3 {
