@@ -26,27 +26,68 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Coding Projects by Arianna Brunell, Front-end developer based in Austin, TX"
+    />
+    <title>Arianna Brunell Coding Projects</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Arianna logo"
+        /></a>
+
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Arianna">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Arianna's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Arianna">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
         <div class="row">
           <div class="col-lg-6 mb-4">
-            <img src="images/yogurt.png" class="img-fluid rounded" alt="" />
+            <img
+              src="images/yogurt.png"
+              class="img-fluid rounded"
+              alt="Yogurt project preview"
+            />
             <h3 class="text-center">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-lg-6 mb-4">
-            <img src="images/weather.png" class="img-fluid rounded" alt="" />
+            <img
+              src="images/weather.png"
+              class="img-fluid rounded"
+              alt="Weather app preview"
+            />
             <h3 class="text-center">Weather Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, and JavaScript
             </p>
           </div>
           <div class="col-lg-6 mb-4">
-            <img src="images/dictionary.png" class="img-fluid rounded" alt="" />
+            <img
+              src="images/dictionary.png"
+              class="img-fluid rounded"
+              alt="Dictionary app preview"
+            />
             <h3 class="text-center">Dictionary App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, and React
@@ -56,7 +97,7 @@
             <img
               src="images/translation.png"
               class="img-fluid rounded"
-              alt=""
+              alt="Translation app preview"
             />
             <h3 class="text-center">Translation App</h3>
             <p class="text-center text-muted">
@@ -65,6 +106,59 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact Arianna"
+              class="btn btn-branding"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:ariannabrunell@gmail.com"
+            class="email-link"
+            title="Email Arianna"
+            >ariannabrunell@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/arianna_brunell/?hl=en"
+            target="_blank"
+            title="Instagram profile"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/ariannabrunell"
+            target="_blank"
+            title="GitHub profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/arianna-brunell-b42525164/"
+            target="_blank"
+            title="Linkedin profile"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Arianna Brunell, and it is
+          <a
+            href="https://github.com/ariannabrunell"
+            target="_blank"
+            title="GitHub project link"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

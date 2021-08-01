@@ -26,21 +26,53 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Contact Arianna, Front-end developer from Austin, TX"
+    />
+    <title>Contact Arianna Brunell</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Arianna logo"
+        /></a>
+
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Arianna">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Arianna's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Arianna">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:ariannabrunell@gmail.com">ariannabrunell@gmail.com</a>
+          <a href="mailto:ariannabrunell@gmail.com" title="Email Arianna"
+            >ariannabrunell@gmail.com</a
+          >
         </p>
         <h3>Linkedin</h3>
         <p>
           <a
             href="https://www.linkedin.com/in/arianna-brunell-b42525164/"
             target="_blank"
+            title="Linkedin Profile"
             >Arianna Brunell</a
           >
         </p>
@@ -49,10 +81,64 @@
           <a
             href="https://www.instagram.com/arianna_brunell/?hl=en"
             target="_blank"
+            title="Instagram Profile"
             >@arianna_brunell</a
           >
         </p>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact Arianna"
+              class="btn btn-branding"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:ariannabrunell@gmail.com"
+            class="email-link"
+            title="Email Arianna"
+            >ariannabrunell@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/arianna_brunell/?hl=en"
+            target="_blank"
+            title="Instagram profile"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/ariannabrunell"
+            target="_blank"
+            title="GitHub profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/arianna-brunell-b42525164/"
+            target="_blank"
+            title="Linkedin profile"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Arianna Brunell, and it is
+          <a
+            href="https://github.com/ariannabrunell"
+            target="_blank"
+            title="GitHub project link"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
